@@ -1,2 +1,0 @@
-[console_scripts]
-common-time = common_time.cli:main
