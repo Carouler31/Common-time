@@ -1,0 +1,11 @@
+input:
+  format: csv
+  time_column: timestamp
+  value_column: value
+
+analysis:
+  method: pca
+  normalize: true
+
+output:
+  directory: output

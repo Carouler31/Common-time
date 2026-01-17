@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: common-time
+Version: 0.1.0
+Summary: Common-Time: extract a robust common temporal signal from multiple time series
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.23
+Requires-Dist: matplotlib>=3.6
+
+# Common Time
+
+**Reference-free temporal consensus extractor**
+
+This tool extracts the *common temporal mode* shared across multiple independent clocks or time series,
+without assuming any physical origin.
+
+## What it does
+- Ingests multiple time series
+- Removes individual drifts
+- Extracts the common mode via PCA
+- Outputs S(t), confidence, and diagnostics
+
+No cosmology. No philosophy. Just signal.
